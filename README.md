@@ -31,7 +31,7 @@ pip install lgpio
 在命令行中运行示例，指定蜂鸣次数、间隔以及 GPIO 引脚：
 
 ```bash
-python3 main.py --times 3 --interval 0.5 --pin 17
+python3 main.py --times 3 --interval 0.5 --pin 16
 ```
 
 其中 `--times` 表示蜂鸣的次数，`--interval` 表示两次蜂鸣之间的间隔秒数，`--pin` 指定蜂鸣器连接到的 GPIO 引脚（默认 17）。
